@@ -19,9 +19,9 @@ def predict():
     }
     return jsonify(result)
 
-# @app.route('/ping', methods=['GET'])
-# def ping():
-#     return "Pinging Model!!"
+@app.route('/ping', methods=['GET'])
+def ping():
+    return "The Model has deployed successfully!! The POST request payload will be have to be sent from the local machine."
 
 if __name__ == "__main__": 
 		app.run(debug=True, host='0.0.0.0', port=5000) 
