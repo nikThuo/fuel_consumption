@@ -19,7 +19,12 @@ The dataset is on fuel consumption in miles per gallon from the UCI Machine Lear
     Deployment
 
 # Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.txt file inside a virtual environment. 
+To use this code, you should first copy it to your computer via:
+```
+git clone https://github.com/nikThuo/fuel_consumption.git
+```
+
+Then Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.txt file inside a virtual environment. 
 ```
 pip install requirements.txt
 ```
