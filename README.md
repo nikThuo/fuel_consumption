@@ -3,10 +3,12 @@ This project is about vehicles city-cycle fuel consumption in miles per gallon. 
 
 # Project Description
 The problem statement is on a regression type of project on Fuel Consumption Prediction using different machine learning models:
+    ```
     Linear Regression
     Decision Tree
     Random Forest
-    SVM Regressor 
+    SVM Regressor
+    ``` 
 
 The dataset is on fuel consumption in miles per gallon from the UCI Machine Learning Repository. The deployment is done on Heroku using Flask web framework.
 
@@ -18,6 +20,9 @@ The dataset is on fuel consumption in miles per gallon from the UCI Machine Lear
 
 # Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.txt file inside a virtual environment. 
+```
+pip install requirements.txt
+```
 
 # Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
